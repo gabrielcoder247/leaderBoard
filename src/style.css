@@ -1,3 +1,41 @@
 body {
-    background-color: bisque;
+    margin-top: 10vh;
+    margin-left: 20vw;
+}
+
+li {
+    list-style-type: none;
+}
+
+.list-items>*:nth-child(odd) {
+    background: rgb(187, 179, 179);
+    padding: 5px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    border: solid grey 1px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#add-score {
+    margin-left: 5vw;
+}
+
+#input-name,
+#input-score {
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+#name-socre-submit {
+    width: 80px;
+    padding: 3px;
+    margin-left: 110px;
 }
