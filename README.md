@@ -1,14 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# My portfolio
+# Leader Board
 
- #### A simple skeleton of my portfolio application
- #### Created on: july, 14th,  2021
-
+ #### A simple skeleton of the leader board application
 
 
-![screenshot](images/my-portfolio-1.png)
+![screenshot](/leader-board-setup.png)
 
 Additional description about the project and its features.
 
@@ -17,6 +15,8 @@ Additional description about the project and its features.
     - HTML
     - CSS
     - linters
+    - webpack
+    - gitflows
 
 
 ### Install dependancies
@@ -42,9 +42,6 @@ Install dependancies that will css and html error and bugs for the app to run
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nwachukwu-209613173/)
 
 ### 🤝 Contributing
-
- `Daniel Majesty Owiri`
-- GitHub: [@githubhandle](https://github.com/dannieMo)
 
 
 Contributions, issues, and feature requests are welcome!
