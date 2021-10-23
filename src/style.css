@@ -1,0 +1,33 @@
+main {
+  width: 80%;
+  margin-top: 10vh;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+}
+
+#name-score-list > *:nth-child(odd) {
+  background: rgb(208, 209, 214);
+  padding: 10px;
+}
+
+#name-score-list {
+  width: 130%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 350px;
+  border: solid rgb(137, 191, 236) 1px;
+}
+
+#add-score {
+  margin-left: 10vw;
+}
+
+#refresh-btn img {
+  margin-left: 60px;
+}
