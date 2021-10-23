@@ -41,11 +41,11 @@ createGame();
 
 createForm();
 
-const scoreForm = document.querySelector('#name-score-form');
+const theScoreForm = document.querySelector('#name-score-form');
 
-scoreForm.addEventListener('submit', (e) => {
+theScoreForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  addScore(scoreForm.name.value, scoreForm.score.value);
+  addScore(theScoreForm.name.value, theScoreForm.score.value);
 });
 
 const refreshBtn = document.querySelector('#refresh-btn');
