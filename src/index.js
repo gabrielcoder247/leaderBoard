@@ -6,7 +6,7 @@ import {
   baseUri,
 } from './createGames.js';
 
-const createForm = () => {
+const createTheForm = () => {
   const formHtml = `
             <h4 class="mb-2">Add your score</h4>
             <form action=${baseUri}+${createGame.gameId}+"/scores"
@@ -39,7 +39,7 @@ const refreshScore = async () => {
 
 createGame();
 
-createForm();
+createTheForm();
 
 const scoreForm = document.querySelector('#name-score-form');
 
